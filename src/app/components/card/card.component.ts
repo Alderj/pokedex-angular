@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class CardComponent {
 
+  name:string = 'PIKACHU'
+  attributesType:string[] = ['FIRE', 'ROCK']
+
 }
