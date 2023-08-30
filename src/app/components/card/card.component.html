@@ -1,9 +1,12 @@
 
 
-<div class="card">
-    <!--  
-        <input type="text" (input)="getPokemon($any($event.target).value)">
-    -->
+<div class="card">  
+    <h3>Pokedex</h3>   
+ 
+        <input 
+        placeholder="Digite o nome do pokemon"
+         type="text" 
+         (input)="getPokemon($any($event.target).value)">    
 
     <div class="card__title">
         <h3> {{ pokemon.name }} </h3>

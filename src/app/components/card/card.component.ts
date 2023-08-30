@@ -23,7 +23,7 @@ export class CardComponent implements OnInit{
   ){ }
 
     ngOnInit(): void {
-      this.getPokemon('squirtle')
+      this.getPokemon('pikachu')
     }
 
     getPokemon (searchName: string){
